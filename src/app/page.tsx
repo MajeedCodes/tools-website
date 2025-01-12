@@ -9,6 +9,17 @@ const tools = [
 
 export default function Home() {
   return (
+    <>
+
+     <Head>
+       
+        <title>Dev Tools</title>
+        <meta name="description" content="We offer a wide variety of coding tools 100% free designed to make your web development experience smoother. Some of our most popular tools. " />
+        <meta name="keywords" content="tools, text to speech, javascrpit minify, html minify, css minify, image optimizer" />
+        <meta name="author" content="MajeedCodes" />
+       
+      </Head>
+      
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <main className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <section className="text-center mb-16">
@@ -61,5 +72,6 @@ export default function Home() {
 
      
     </div>
+    </>
   );
 }
